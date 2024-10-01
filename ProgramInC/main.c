@@ -1,9 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-#include <locale.h>
-#include <malloc.h>
 #include "task.h"
 
 void main() {
@@ -23,8 +17,9 @@ void main() {
 	{
 	case 0: mainEntranceControl(); break;
 	case 1: mainPointers(); break;
-	default:
-		break;
+	case 2: mainDelegates(); break;
+	case 3: mainSimplyConnectedLists(); break;
+	default: printf("Неверный ввод. Попробуйте снова.\n"); break;
 	}
 	printf("\n");
 }

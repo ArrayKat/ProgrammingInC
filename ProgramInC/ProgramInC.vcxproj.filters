@@ -15,13 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="N1_entranceControl.c">
+    <ClCompile Include="N1_EntranceControl.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="main.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="N2_pointers.c">
+    <ClCompile Include="N2_Pointers.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="N3_Delegates.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="N4_SimplyConnectedLists.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

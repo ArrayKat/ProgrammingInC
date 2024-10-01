@@ -13,4 +13,4 @@
 - также не забудьте предусмотреть верификацию и валидацию вводимых данных
 
 [Назад](../README.md) | 
-[Посмотреть код](../ProgramInC/Z1entranceControl.c)
+[Посмотреть код](../ProgramInC/N1_EntranceControl.c)

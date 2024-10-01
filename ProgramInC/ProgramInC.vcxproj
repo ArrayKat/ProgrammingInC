@@ -127,9 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="N1_entranceControl.c" />
+    <ClCompile Include="N1_EntranceControl.c" />
     <ClCompile Include="main.c" />
-    <ClCompile Include="N2_pointers.c" />
+    <ClCompile Include="N2_Pointers.c" />
+    <ClCompile Include="N3_Delegates.c" />
+    <ClCompile Include="N4_SimplyConnectedLists.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="task.h" />
