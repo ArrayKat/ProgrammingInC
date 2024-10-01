@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Z1entranceControl.c">
+    <ClCompile Include="N1_entranceControl.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="main.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Z2pointers.c">
+    <ClCompile Include="N2_pointers.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
