@@ -19,13 +19,23 @@ void mainSimplyConnectedLists() {
 	printf("Введите количество элементов списка для создания: ");
 	scanf_s("%d", &N);
 	List item = CreateList(N);
+	List flip2and5 = malloc(sizeof(list));
+	List flip0and3 = malloc(sizeof(list));
+	List flip4and5 = malloc(sizeof(list));
 	PrintList(item);
 	item = AddItemToList(item, 7, 4);
 	PrintList(item);
 	item = DeleteItemToList(item, 7);
 	PrintList(item);
-	item = FlipItemsList(item, 1, 4);
-	printf("Поменяли 1 и 4\n");
+	/*flip2and5 = FlipItemsList(item, 2,5);
+	printf("Поменяли 2 и 5\n");
+	PrintList(flip2and5);*/
+	flip0and3 = FlipItemsList(item, 0, 3);
+	printf("Поменяли 0 и 3\n");
+	PrintList(flip0and3);
+	flip4and5 = FlipItemsList(item, 4, 5);
+	printf("Поменяли 4 и 5\n");
+	PrintList(flip4and5);
 	PrintList(item);
 	DeleteList(item);
 	
@@ -99,37 +109,78 @@ List DeleteItemToList(List items, int number) {
 }
 List FlipItemsList(List items, int index1, int index2) {
 	List head = items;
-	List prItem = items;
-	List prItem1 = items;
-	List prItem2 = items;
-	List buf = items;
-	int Item1 = min(index1, index2);
-	int Item2 = max(index1, index2);
+	List pr = items;
+	List prevItem1 = (List)malloc(sizeof(list));
+	List prevItem2 = (List)malloc(sizeof(list));
+	List nextItem1 = (List)malloc(sizeof(list));
+	List nextItem2 = (List)malloc(sizeof(list));
+	List item1 = (List)malloc(sizeof(list));
+	List item2 = (List)malloc(sizeof(list));
+	int num1 = min(index1, index2);
+	int num2 = max(index1, index2);
 	while (items) {
-		if (items->N == Item1) {
-			prItem1 = prItem;
+		if (items->N == num1) {
+			prevItem1 = pr;
+			item1 = items;
+			nextItem1 = items->nextN;
 		}
-		if (items->N == Item2) {
-			prItem2 = prItem;
+		if (items->N == num2) {
+			prevItem2 = pr; 
+			item2 = items;
+			nextItem2 = items->nextN;
 		}
-		prItem = items;
+		pr = items;
 		items = items->nextN;
 	}
 	items = head;
+	if (num1 == items->N) {
+	//c 0
+		
+		while (items) {
+			if (items->N == num1) {
+				items = item2;
+				items->nextN = nextItem1;
+			}
+			if (prevItem2 == items) {
+				items->nextN = item1;
+				items->nextN->nextN = nextItem2;
+			}
+			items = items->nextN;
+		}
 	
-	while (items) {
-		if (prItem1 == items) {
-			items->nextN = prItem2->nextN;
-			items = items->nextN;
-			items->nextN = prItem2->nextN->nextN;
-		}
-		if (prItem2 == items) {
-			items->nextN = prItem1->nextN;
-			items = items->nextN;
-			items->nextN = prItem1->nextN->nextN;
-		}
-		items = items->nextN;
 	}
-	items = head;
+	else if (item1 == prevItem2 && item2 == nextItem1) {
+	//если стоят близко
+		while (items) {
+
+			if (prevItem1 == items) {
+				items->nextN = item2;
+				items->nextN->nextN = nextItem1;
+
+			}
+			if (prevItem2 == items) {
+				items->nextN = item1;
+				items->nextN->nextN = nextItem2;
+			}
+			items = items->nextN;
+		}
+	}
+	else {
+		while (items) {
+		
+			if (prevItem1 == items) {
+				items->nextN = item2;
+				items->nextN->nextN = nextItem1;
+
+			}
+			if (prevItem2 == items) {
+				items->nextN = item1;
+				items->nextN->nextN = nextItem2;
+			}
+			items = items->nextN;
+		}
+	}
 	
+	items = head;
+	return items;
 }
