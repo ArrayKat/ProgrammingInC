@@ -10,4 +10,4 @@
 
 - Переработайте предыдущую функцию таким образом, чтобы она использовала директивы #if, #else, #elif, #endif.
 
-[Назад](../README.md)
+[Назад](../README.md) | [К коду](../ProgramInC/N6_PreprocessorDirectives.c)

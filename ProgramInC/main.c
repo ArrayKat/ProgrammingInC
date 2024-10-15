@@ -19,6 +19,7 @@ void main() {
 	case 1: mainPointers(); break;
 	case 2: mainDelegates(); break;
 	case 3: mainSimplyConnectedLists(); break;
+	case 4: mainHeaderFiles(); break;
 	default: printf("Неверный ввод. Попробуйте снова.\n"); break;
 	}
 	printf("\n");

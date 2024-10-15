@@ -1,29 +1,90 @@
 #include "task.h"
 
-void mainDelegates() {
-    int task;
-    int flag = 1;
-    while (flag) {
+typedef int (*fun)(int, int);
+typedef fun* del;
 
-        printf("\nВыберите задание:\n");
-        printf("1. Определить указатель на функцию и массив указателей на функцию как новый тип данных.\n");
-        printf("2. Реализовать функцию добавления функций в делегат.\n");
-        printf("3. Реализовать функцию удаления функций из делегата.\n");
-        printf("4. Реализовать функцию запуска всех функций из делегата.\n");
-        printf("5. Реализовать функцию по удалению всех повторяющихся функций в делегате (чтобы каждая функция встречалась только один раз).\n");
 
-        printf("Введите номер задания (1-5) (0-выйти): ");
-        scanf_s("%d", &task);
-        switch (task)
-        {
-        case 0: flag = 0; break;
-        /*case 1: N2_Zadanie1(); break;
-        case 2: N2_Zadanie2(); break;
-        case 3: N2_Zadanie3(); break;
-        case 4: N2_Zadanie4(); break;*/
-        default:  printf("Неверный ввод. Выберите задания от 1 до 5. Используйте 0 для выхода.\n");
-            break;
+int Razn(int a, int b) {
+    return a - b;
+}
+int Summ(int a, int b) {
+    return a + b;
+}
+int Sqare(int a, int b) {
+    return a * b;
+}
+int Div(int a, int b) {
+    if (b == 0) return 0;
+    else return a / b;
+}
+
+del AddDelegate(del deleg, fun operation) {
+    size_t size = _msize(deleg) / sizeof(fun);
+    deleg = realloc(deleg, (size + 1) * sizeof(fun));
+    deleg[size] = operation;
+    return deleg;
+}
+
+void PrintAllFunctions(del deleg, int a, int b) {
+    int size = _msize(deleg)/sizeof(fun);
+    for (int i = 0; i < size; i++) {
+        printf("%d. функция c переданными аргумкентами %d и %d = %d\n",i,a,b, deleg[i](a,b));
+    }
+    printf("\n");
+}
+
+del DeleteFunctionsFromIndex(del deleg, int index) {
+    int size = _msize(deleg) / sizeof(fun);
+    for (int i = 0; i < size; i++) {
+        if (i >= index) {
+            deleg[i] = deleg[i + 1];
         }
     }
+    deleg = realloc(deleg,(size-1)* sizeof(fun));
+}
 
+del DeleteDuplicate(del deleg) {
+    int size = _msize(deleg) / sizeof(fun);
+    del newDeleg = malloc(1 * sizeof(fun));
+    
+    for (int i = 0; i < size; i++) {
+        for (int j = i + 1; j < size; j++) {
+            if (deleg[i] == deleg[j]) {
+                for (int k = j; k < size - 1; k++) {
+                    deleg[k] = deleg[k + 1];
+                }
+                size--;
+                j--;
+            }
+        }
+    }
+    deleg = realloc(deleg, size * sizeof(fun));
+}
+
+void mainDelegates() {
+    fun function;
+
+    printf("Начальные функции: \n");
+    del delegate = malloc(3 * sizeof(fun));
+    delegate[0] = Razn;
+    delegate[1] = Summ;
+    delegate[2] = Div;
+    PrintAllFunctions(delegate, 10,5);
+
+    printf("Добавление умножения чисел: \n");
+    delegate = AddDelegate(delegate, Sqare);
+    PrintAllFunctions(delegate, 10, 5);
+
+    printf("Удаление делегата с индексом 2: \n");
+    delegate = DeleteFunctionsFromIndex(delegate,2);
+    PrintAllFunctions(delegate, 10, 5);
+
+    printf("Добавление дубликатов функций в делегат: \n");
+    delegate = AddDelegate(delegate, Sqare);
+    delegate = AddDelegate(delegate, Sqare);
+    PrintAllFunctions(delegate, 10, 5);
+
+    printf("Удаление дубликатов функций из делегата: \n");
+    delegate = DeleteDuplicate(delegate);
+    PrintAllFunctions(delegate, 10, 5);
 }
