@@ -30,9 +30,18 @@
     <ClCompile Include="N4_SimplyConnectedLists.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="N5_HeaderFiles.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="N6_PreprocessorDirectives.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="task.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="head.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
