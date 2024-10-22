@@ -81,7 +81,38 @@ void mainDelegates() {
 
     printf("Добавление дубликатов функций в делегат: \n");
     delegate = AddDelegate(delegate, Sqare);
+    delegate = AddDelegate(delegate, Summ);
     delegate = AddDelegate(delegate, Sqare);
+    delegate = AddDelegate(delegate, Sqare);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Sqare);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Summ);
+    delegate = AddDelegate(delegate, Razn);
+
     PrintAllFunctions(delegate, 10, 5);
 
     printf("Удаление дубликатов функций из делегата: \n");

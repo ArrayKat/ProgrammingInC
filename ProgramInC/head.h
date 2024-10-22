@@ -25,5 +25,5 @@ int N5_Div(int a, int b) {
 }
 
 char* ConcatStr(char* str1, char* str2);
-char* ConvertIntToString(int n);
-int ConvertStringToInt(const char* s);
+char* ConvertDoubleToString(double num);
+double ConvertStringToDouble(const char* s);

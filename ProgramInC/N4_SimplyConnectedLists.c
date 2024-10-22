@@ -37,7 +37,7 @@ void DeleteList(List item) {
 		free(item);
 		item = byf;
 	}
-	printf("Вы успешно удалили ЛОС");
+	printf("Вы успешно удалили односвязный список");
 }
 List AddItemToList(List items, int number, int indexStart) {
 	List head = items; //запоминаем голову
@@ -72,6 +72,14 @@ List DeleteItemToList(List items, int number) {
 	items = head;
 	return items;
 }
+int Count(List items) {
+	int count = 0;
+	while (items) {
+		count++;
+		items = items->nextN;
+	}
+	return count;
+}
 List FlipItemsList(List items, int index1, int index2) {
 	List head = items;
 	List nxItem2 = items;
@@ -80,69 +88,85 @@ List FlipItemsList(List items, int index1, int index2) {
 	List buf = items;
 	int Elem1 = min(index1, index2);
 	int Elem2 = max(index1, index2);
-	while (items) {
-		if (items->N == Elem1) {
-			Item1 = items;
-		}
-		if (items->N == Elem2) {
-			Item2 = items;
-			nxItem2 = items->nextN;
-		}
-		items = items->nextN;
-	}
-	items = head;
-
-	int count = 0;
-
-	if (Item1->N == head->N) { //если 1й элемент - голова
+	if (Elem2 < Count(items)) {
 		while (items) {
-			if (items->N == head->N) {
-				items = Item2;
-				items->nextN = Item1->nextN;
-				break;
+			if (items->N == Elem1) {
+				Item1 = items;
 			}
-			items = items->nextN;
-		}
-		items = head;
-		while (items) {
-			if (items->nextN->N == Item2->N) {
-				count++;
-			}
-			if (count == 1) {
-				head = items->nextN->nextN;
-			}
-			if (count > 1) {
-				items->nextN = Item1;
-				items->nextN->nextN = nxItem2;
-				break;
+			if (items->N == Elem2) {
+				Item2 = items;
+				nxItem2 = items->nextN;
 			}
 			items = items->nextN;
 		}
 		items = head;
 	}
 	else {
+		printf("Вы ввели индекс больше чем размер списка, поэтому мы поместим число в конец\n");
 		while (items) {
-			if (items->nextN = Item1) {
-				items->nextN = Item2;
-				items->nextN->nextN = Item1->nextN;
-				break;
+			if (items->N == Elem1) {
+				Item1 = items;
 			}
-			items = items->nextN;
-		}
-		items = head;
-		while (items) {
-			if (items->nextN->N == Item2->N) {
-				count++;
-			}
-			if (count > 1) {
-				items->nextN = Item1;
-				items->nextN->nextN = nxItem2;
-				break;
+			if (items->nextN == NULL) {
+				Item2 = items;
+				nxItem2 = items->nextN;
 			}
 			items = items->nextN;
 		}
 		items = head;
 	}
+		int count = 0;
+
+		if (Item1->N == head->N) { //если 1й элемент - голова
+			while (items) {
+				if (items->N == head->N) {
+					items = Item2;
+					items->nextN = Item1->nextN;
+					break;
+				}
+				items = items->nextN;
+			}
+			items = head;
+			while (items) {
+				if (items->nextN->N == Item2->N) {
+					count++;
+				}
+				if (count == 1) {
+					head = items->nextN->nextN;
+				}
+				if (count > 1) {
+					items->nextN = Item1;
+					items->nextN->nextN = nxItem2;
+					break;
+				}
+				items = items->nextN;
+			}
+			items = head;
+		}
+		else {
+			while (items) {
+				if (items->nextN = Item1) {
+					items->nextN = Item2;
+					items->nextN->nextN = Item1->nextN;
+					break;
+				}
+				items = items->nextN;
+			}
+			items = head;
+			while (items) {
+				if (items->nextN->N == Item2->N) {
+					count++;
+				}
+				if (count > 1) {
+					items->nextN = Item1;
+					items->nextN->nextN = nxItem2;
+					break;
+				}
+				items = items->nextN;
+			}
+			items = head;
+		}
+	
 }
 
 
@@ -157,7 +181,7 @@ void mainSimplyConnectedLists() {
 	item = DeleteItemToList(item, 7);
 	PrintList(item);
 	item = FlipItemsList(item, 0, 7);
-	printf("Поменяли 0 и 1\n");
+	printf("Поменяли 0 и 7\n");
 	PrintList(item);
 	DeleteList(item);
 	
