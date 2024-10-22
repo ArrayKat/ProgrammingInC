@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9FF22D0-4B74-4997-B0F4-B88C3E0D31BF}|ProgramInC\\ProgramInC.vcxproj|C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N5_HeaderFiles.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E9FF22D0-4B74-4997-B0F4-B88C3E0D31BF}|ProgramInC\\ProgramInC.vcxproj|solutionrelative:ProgramInC\\N5_HeaderFiles.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9FF22D0-4B74-4997-B0F4-B88C3E0D31BF}|ProgramInC\\ProgramInC.vcxproj|C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\head.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E9FF22D0-4B74-4997-B0F4-B88C3E0D31BF}|ProgramInC\\ProgramInC.vcxproj|solutionrelative:ProgramInC\\head.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9FF22D0-4B74-4997-B0F4-B88C3E0D31BF}|ProgramInC\\ProgramInC.vcxproj|C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N4_SimplyConnectedLists.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E9FF22D0-4B74-4997-B0F4-B88C3E0D31BF}|ProgramInC\\ProgramInC.vcxproj|solutionrelative:ProgramInC\\N4_SimplyConnectedLists.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9FF22D0-4B74-4997-B0F4-B88C3E0D31BF}|ProgramInC\\ProgramInC.vcxproj|C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N3_Delegates.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E9FF22D0-4B74-4997-B0F4-B88C3E0D31BF}|ProgramInC\\ProgramInC.vcxproj|solutionrelative:ProgramInC\\N3_Delegates.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{E9FF22D0-4B74-4997-B0F4-B88C3E0D31BF}|ProgramInC\\ProgramInC.vcxproj|C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N6_PreprocessorDirectives.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9FF22D0-4B74-4997-B0F4-B88C3E0D31BF}|ProgramInC\\ProgramInC.vcxproj|solutionrelative:ProgramInC\\N6_PreprocessorDirectives.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "head.h",
-              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\head.h",
-              "RelativeDocumentMoniker": "ProgramInC\\head.h",
-              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\head.h*",
-              "RelativeToolTip": "ProgramInC\\head.h*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-22T10:43:04.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "N5_HeaderFiles.c",
-              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N5_HeaderFiles.c",
-              "RelativeDocumentMoniker": "ProgramInC\\N5_HeaderFiles.c",
-              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N5_HeaderFiles.c*",
-              "RelativeToolTip": "ProgramInC\\N5_HeaderFiles.c*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAUwA8AAAA3AAAAAAAAAA==",
+              "Title": "N6_PreprocessorDirectives.c",
+              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N6_PreprocessorDirectives.c",
+              "RelativeDocumentMoniker": "ProgramInC\\N6_PreprocessorDirectives.c",
+              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N6_PreprocessorDirectives.c",
+              "RelativeToolTip": "ProgramInC\\N6_PreprocessorDirectives.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-22T10:42:57.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "N4_SimplyConnectedLists.c",
-              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N4_SimplyConnectedLists.c",
-              "RelativeDocumentMoniker": "ProgramInC\\N4_SimplyConnectedLists.c",
-              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N4_SimplyConnectedLists.c",
-              "RelativeToolTip": "ProgramInC\\N4_SimplyConnectedLists.c",
-              "ViewState": "AgIAAKMAAAAAAAAAAAAgwLcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-01T11:14:08.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "N3_Delegates.c",
-              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N3_Delegates.c",
-              "RelativeDocumentMoniker": "ProgramInC\\N3_Delegates.c",
-              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N3_Delegates.c",
-              "RelativeToolTip": "ProgramInC\\N3_Delegates.c",
-              "ViewState": "AgIAABMAAAAAAAAAAAAUwHAAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-01T10:53:32.635Z",
+              "WhenOpened": "2024-10-22T11:29:49.533Z",
               "EditorCaption": ""
             }
           ]

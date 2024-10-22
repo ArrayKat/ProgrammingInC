@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E9FF22D0-4B74-4997-B0F4-B88C3E0D31BF}|ProgramInC\\ProgramInC.vcxproj|C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N5_HeaderFiles.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9FF22D0-4B74-4997-B0F4-B88C3E0D31BF}|ProgramInC\\ProgramInC.vcxproj|solutionrelative:ProgramInC\\N5_HeaderFiles.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E9FF22D0-4B74-4997-B0F4-B88C3E0D31BF}|ProgramInC\\ProgramInC.vcxproj|C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N6_PreprocessorDirectives.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E9FF22D0-4B74-4997-B0F4-B88C3E0D31BF}|ProgramInC\\ProgramInC.vcxproj|solutionrelative:ProgramInC\\N6_PreprocessorDirectives.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "N5_HeaderFiles.c",
+              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N5_HeaderFiles.c",
+              "RelativeDocumentMoniker": "ProgramInC\\N5_HeaderFiles.c",
+              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N5_HeaderFiles.c",
+              "RelativeToolTip": "ProgramInC\\N5_HeaderFiles.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-22T11:44:06.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "N6_PreprocessorDirectives.c",
               "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N6_PreprocessorDirectives.c",
               "RelativeDocumentMoniker": "ProgramInC\\N6_PreprocessorDirectives.c",

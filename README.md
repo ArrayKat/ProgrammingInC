@@ -14,6 +14,9 @@
 4. [Задание на линейные односвязные списки](docs/SimplyConnectedLists.md)
 5. [Задание на заголовочные файлы](docs/HeaderFiles.md)
 6. [Задание на диррективы препроцессора](docs/PreprocessorDirectives.md)
+7. [Работа с файлами средствами языка СИ](docs/FileC.md)
+8. [Работа с файлами средствами WinAPI](docs/FileWinAPI.md)
+9. [Работа с файлами в Linux](docs/FileLinux.md)
 
 
 ## Описание коммитов
