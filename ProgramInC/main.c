@@ -11,6 +11,7 @@ void main() {
 	printf("3. Односвязные списки.\n");
 	printf("4. Заголовочные файлы.\n");
 	printf("5. Директивы препроцессора.\n");
+	printf("6. Задание на файл. СИ.\n");
 	printf("Введите номер задания (0-5): ");
 	scanf("%d", &task);
 	switch (task)
@@ -20,6 +21,7 @@ void main() {
 	case 2: mainDelegates(); break;
 	case 3: mainSimplyConnectedLists(); break;
 	case 4: mainHeaderFiles(); break;
+	case 6: mainWorkFileInC(); break;
 	default: printf("Неверный ввод. Попробуйте снова.\n"); break;
 	}
 	printf("\n");

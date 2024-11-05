@@ -36,6 +36,9 @@
     <ClCompile Include="N6_PreprocessorDirectives.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="N7_WorkFileInC.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="task.h">

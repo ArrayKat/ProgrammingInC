@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9FF22D0-4B74-4997-B0F4-B88C3E0D31BF}|ProgramInC\\ProgramInC.vcxproj|C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N5_HeaderFiles.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E9FF22D0-4B74-4997-B0F4-B88C3E0D31BF}|ProgramInC\\ProgramInC.vcxproj|solutionrelative:ProgramInC\\N5_HeaderFiles.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\fileInputOutput\\InputC.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProgramInC\\fileInputOutput\\InputC.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9FF22D0-4B74-4997-B0F4-B88C3E0D31BF}|ProgramInC\\ProgramInC.vcxproj|C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N6_PreprocessorDirectives.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E9FF22D0-4B74-4997-B0F4-B88C3E0D31BF}|ProgramInC\\ProgramInC.vcxproj|solutionrelative:ProgramInC\\N6_PreprocessorDirectives.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\fileInputOutput\\OutputC.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProgramInC\\fileInputOutput\\OutputC.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FF22D0-4B74-4997-B0F4-B88C3E0D31BF}|ProgramInC\\ProgramInC.vcxproj|C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N7_WorkFileInC.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9FF22D0-4B74-4997-B0F4-B88C3E0D31BF}|ProgramInC\\ProgramInC.vcxproj|solutionrelative:ProgramInC\\N7_WorkFileInC.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "N5_HeaderFiles.c",
-              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N5_HeaderFiles.c",
-              "RelativeDocumentMoniker": "ProgramInC\\N5_HeaderFiles.c",
-              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N5_HeaderFiles.c",
-              "RelativeToolTip": "ProgramInC\\N5_HeaderFiles.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-22T11:44:06.213Z",
+              "DocumentIndex": 1,
+              "Title": "OutputC.txt",
+              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\fileInputOutput\\OutputC.txt",
+              "RelativeDocumentMoniker": "ProgramInC\\fileInputOutput\\OutputC.txt",
+              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\fileInputOutput\\OutputC.txt",
+              "RelativeToolTip": "ProgramInC\\fileInputOutput\\OutputC.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-05T11:09:46.839Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "N6_PreprocessorDirectives.c",
-              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N6_PreprocessorDirectives.c",
-              "RelativeDocumentMoniker": "ProgramInC\\N6_PreprocessorDirectives.c",
-              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N6_PreprocessorDirectives.c",
-              "RelativeToolTip": "ProgramInC\\N6_PreprocessorDirectives.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "InputC.txt",
+              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\fileInputOutput\\InputC.txt",
+              "RelativeDocumentMoniker": "ProgramInC\\fileInputOutput\\InputC.txt",
+              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\fileInputOutput\\InputC.txt",
+              "RelativeToolTip": "ProgramInC\\fileInputOutput\\InputC.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-05T09:55:03.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "N7_WorkFileInC.c",
+              "DocumentMoniker": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N7_WorkFileInC.c",
+              "RelativeDocumentMoniker": "ProgramInC\\N7_WorkFileInC.c",
+              "ToolTip": "C:\\Users\\\u043A\u043E\u043B\u0438\u043D\u0438\u0447\u0435\u043D\u043A\u043E\u0435\u0441\\source\\repos\\ProgramInC\\ProgramInC\\N7_WorkFileInC.c",
+              "RelativeToolTip": "ProgramInC\\N7_WorkFileInC.c",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-22T11:29:49.533Z",
+              "WhenOpened": "2024-11-05T08:58:55.394Z",
               "EditorCaption": ""
             }
           ]

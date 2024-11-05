@@ -6,6 +6,7 @@
 #include <math.h>
 #include <locale.h>
 #include <malloc.h>
+#include <conio.h>
 
 void mainEntranceControl();
 void mainPointers();
